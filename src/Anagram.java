@@ -4,8 +4,8 @@ import java.util.HashMap;
 public class Anagram {
    public static void main(String args[]){
 	   
-	   String s1 = "M";
-	   String s0 = "";
+	   String s1 = "Mmmm";
+	   String s0 = "mmmm";
 	   
 	   String copyOfS1 = s1.replaceAll("\\s","").toLowerCase();
 	   String copyOfS0 = s0.replaceAll("\\s","").toLowerCase();

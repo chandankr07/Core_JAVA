@@ -27,18 +27,19 @@ public class LongestSubString {
 				char ch= input.charAt(i);
 				
 				if(!map.containsKey(ch)){
+					System.out.println("1:        "+ch);
 					map.put(ch, i);
 				}
 				else {
 					i= map.get(ch);
-					System.out.println("Value of i  : "+i);
+					System.out.println("2:        "+ch);
 					map.clear();
 				}
 				
 				if(map.size() > len){
 					len=map.size();
 					longestst = map.keySet().toString();
-					System.out.println("here : "+longestst);
+					System.out.println("here : "+longestst + " and Length "+len);
 				}
 			}
 			

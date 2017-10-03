@@ -34,7 +34,7 @@ public class BinaryCheck
  
     public static void main(String[] args)
     {
-        isBinaryOrNot(128956);
+        isBinaryOrNot(100001);
  
         isBinaryOrNot((101110));
  

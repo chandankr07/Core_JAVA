@@ -16,7 +16,7 @@ class Diamond {
 	        System.out.println();
 	        //Printing upper half of the diamond
 	         
-	        for (int i = midRow; i > 0; i--)
+	        for (int i = 5; i > 0; i--)
 	        {
 	            //Printing i spaces at the beginning of each row
 	  
@@ -40,7 +40,7 @@ class Diamond {
 	        }
 	         
 	        //Printing lower half of the diamond
-	         
+	         /*
 	        for (int i = 0; i <= midRow; i++) 
 	        {
 	            //Printing i spaces at the beginning of each row
@@ -63,5 +63,5 @@ class Diamond {
 	             
 	            row--;
 	        }
-	    }
+	    */}
 }

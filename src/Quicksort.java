@@ -54,9 +54,10 @@ public class Quicksort  {
                 j--;
             }
         }
-        // Recursion
+        		// Recursion
         if (low < j)
             quicksort(low, j);
+        
         if (i < high)
             quicksort(i, high);
         

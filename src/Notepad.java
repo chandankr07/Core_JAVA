@@ -5,9 +5,9 @@ public class Notepad
     public static void main(String args[]) throws IOException
     {
     	try{
-        Runtime.getRuntime().exec("Notepad.exe");
+        System.out.println(Runtime.getRuntime().freeMemory());
     } 
-    	catch(IOException e){
+    	catch(Exception e){
     		e.printStackTrace();
     }
     	

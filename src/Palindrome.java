@@ -43,7 +43,33 @@ public class Palindrome {
 					System.out.println("It's not palindrome");
 			}	
 		
+/*	
+ * 
+ * String reverse using recursion
+ * 	
+ * public static String reverse(String input){ 
+			if(input == null || input.isEmpty())
+				{
+					return input; 
+				} 
+			return 
+					input.charAt(input.length()- 1) + reverse(input.substring(0, input.length() - 1)); } 
 		
+		
+*/		
+		
+		/*
+		 * Using recursion
+		
+		public static boolean isPalindrome(String in){
+			   if(in.equals(" ") || in.length() < 2 ) return true;
+			   if(in.charAt(0).equalsIgnoreCase(in.charAt(in.length-1))
+			      return isPalindrome(in.substring(1,in.length-2));
+			   else
+			      return false;
+			 }
+		
+		*/
 		
 		
 /*		StringBuffer rev = new StringBuffer(str).reverse();
